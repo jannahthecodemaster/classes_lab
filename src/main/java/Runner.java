@@ -30,11 +30,11 @@ public class Runner {
         System.out.println("Running computer tasks...");
 
         // 1. Create a new computer object
-//        Computer computer = <INSTANTIATE A NEW COMPUTER OBJECT HERE>
+        Computer computer1 = new Computer(250);
 
         // 2. Use a getter to find out how much storage the computer has
-//        int currentStorage = <CALL YOUR METHOD HERE>;
-//        System.out.println("Computer has " + currentStorage + "GB storage");
+        int currentStorage = computer1.getcurrentStorage();
+        System.out.println("Computer has " + currentStorage + "GB storage");
 
         // 3. Add more storage to the computer
 //        <CALL YOUR METHOD HERE>;

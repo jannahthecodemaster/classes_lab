@@ -4,6 +4,7 @@ public class Rectangle {
     private int area;
     private boolean isSquare;
 
+
     public Rectangle(int length, int width) {
         this.length = length;
         this.width = width;
@@ -21,7 +22,8 @@ public class Rectangle {
         return isSquare;
         }
 
- }
+
+        }
 
 
 
